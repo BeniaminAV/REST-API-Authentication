@@ -28,7 +28,7 @@ server.listen(5000, () =>
 )
 
 const MONGO_URL =
-  "mongodb+srv://blackben5:I7otCq38FeM7TPbT@cluster0.0swtxmt.mongodb.net/user"
+  "MONGO URL"
 
 mongoose.Promise = Promise
 mongoose.connect(MONGO_URL)
